@@ -17,7 +17,7 @@ fun main(args : Array<String>) {
     var latestLength : Long
 
     val (request, response, results) = Fuel.head(args[0])
-    .header(mapOf("Host" to "oss.sonatype.org"))
+    //.header(mapOf("Host" to "oss.sonatype.org"))
     //.also { println(it) }
     .response()
 
